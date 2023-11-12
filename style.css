@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1em;
+    background-color: #9d88d3;
+}
+.box1{
+    width: 75%;
+}
+h1{
+    color: #fff;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    /* display: inline; */
+}
+h2{
+    color: #fff;
+    font: 1.5em bold;
+    text-align: center;
+    font-weight: 700;
+}
+p{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+.img1{
+    height: 10vh;
+}
+button{
+    border: none;
+    font: 1em bold;
+    text-align: center;
+    background-color: #574f84;
+    color: #fff;
+    border-radius: 20px;
+    padding: 16px 32px;
+    display:inline;
+}
+button:hover{
+    background-color:#2d2463;
+}
+button:focus{
+    transition: 0.5s;
+    transition-property:background-color;
+}
+.box2{
+    /* background: rgba(155,136,211,0.5); */
+    background:linear-gradient(rgba(155,136,211,0.8),rgba(155,136,211,0.8) ),url(./素材/图片/hertaa_github.gif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img2{
+    width: 40%;
+    text-align: center;
+}
+#one{
+    font-size: 40px;
+}
